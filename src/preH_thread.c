@@ -1,5 +1,6 @@
 #include <preh_thread.h>
 #include <pthread.h>
+#include <iostream>
 
 void* block_func(){
     while(1) std::cout << "create sucess" << std::endl;
