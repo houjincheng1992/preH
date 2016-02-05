@@ -10,5 +10,5 @@ class preh_thread{
         preh_thread operator=(const preh_thread& assign);
 };
 
-extern void* block_func();
+//extern void* block_func();
 #endif
