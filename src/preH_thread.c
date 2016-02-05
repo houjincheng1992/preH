@@ -2,7 +2,7 @@
 #include <pthread.h>
 #include <iostream>
 
-void* block_func(){
+void* block_func(void*){
     while(1) std::cout << "create sucess" << std::endl;
 }
 preh_thread::preh_thread(){
@@ -11,11 +11,11 @@ preh_thread::preh_thread(){
     }
 }
 
-preh_thread::preh_thread(){
-}
-
-preh_thread::preh_thread(){
-}
-
-preh_thread::~preh_thread(){
-}
+//preh_thread::preh_thread(){
+//}
+//
+//preh_thread::preh_thread(){
+//}
+//
+//preh_thread::~preh_thread(){
+//}

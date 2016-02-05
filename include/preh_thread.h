@@ -11,3 +11,4 @@ class preh_thread{
 };
 
 extern void* block_func();
+#endif
